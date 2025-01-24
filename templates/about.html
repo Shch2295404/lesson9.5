@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+
+{% block title %}О проекте{% endblock %}
+
+{% block content %}
+    <h1 class="mt-5">О проекте</h1>
+    <p class="lead">Это учебный проект, созданный для изучения Flask.</p>
+    <h2>Цели проекта</h2>
+    <p>Проект создан для демонстрации базовых возможностей Flask, таких как маршрутизация, работа с шаблонами и статическими файлами.</p>
+
+    <h2>Используемые технологии</h2>
+    <ul>
+        <li>Flask</li>
+        <li>Bootstrap</li>
+        <li>HTML/CSS</li>
+    </ul>
+
+    <h2>Примеры компонентов</h2>
+    <p>Ниже представлены примеры использования компонентов Bootstrap, таких как карточки и карусели.</p>
+
+    <div class="row">
+        <!-- Карточка 1 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div id="carouselExample1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../static/image/placeholder1.jpg" class="d-block w-100" alt="Изображение 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../static/image/placeholder2.jpg" class="d-block w-100" alt="Изображение 2">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Предыдущий</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Следующий</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Пример карточки 1</h5>
+                    <p class="card-text">Это пример карточки с каруселью изображений.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Карточка 2 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div id="carouselExample2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../static/image/placeholder3.jpg" class="d-block w-100" alt="Изображение 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../static/image/placeholder4.jpg" class="d-block w-100" alt="Изображение 4">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Предыдущий</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Следующий</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Пример карточки 2</h5>
+                    <p class="card-text">Это еще один пример карточки с каруселью изображений.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Карточка 3 -->
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div id="carouselExample3" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../static/image/placeholder5.jpg" class="d-block w-100" alt="Изображение 5">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../static/image/placeholder6.jpg" class="d-block w-100" alt="Изображение 6">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExample3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Предыдущий</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExample3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Следующий</span>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Пример карточки 3</h5>
+                    <p class="card-text">И еще одна карточка с каруселью для демонстрации.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2>Как использовать</h2>
+    <p>Проект можно использовать как основу для создания собственных веб-приложений на Flask.</p>
+{% endblock %}
